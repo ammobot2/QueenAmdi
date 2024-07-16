@@ -1,13 +1,13 @@
 {
-    "name": "queen_amdi-multi_device",
+    "name": "Fix-multi_device",
     "version": "4.0.8",
-    "description": "Queen Amdi [WA Multi-device] - A WhatsApp based third party application that provide many services with a real-time automated conversational experience.",
+    "description": "Fix md [WA Multi-device] - A WhatsApp based third party application that provide many services with a real-time automated conversational experience.",
     "main": "./assets/amdiModule.js",
     "scripts": {
         "package": "yarn install --network-concurrency 1",
         "start": "node ./assets/amdiModule.js",
-        "pm-run": "sudo yarn global add pm2 && pm2 start ./assets/amdiModule.js --name QueenAmdiMD && pm2 log QueenAmdiMD",
-        "pm-restart": "pm2 restart QueenAmdiMD"
+        "pm-run": "sudo yarn global add pm2 && pm2 start ./assets/amdiModule.js --name Fixmd && pm2 log Fixmd",
+        "pm-restart": "pm2 restart Fixmd"
     },
     "repository": {
         "type": "git",
